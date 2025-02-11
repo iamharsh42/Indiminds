@@ -28,7 +28,7 @@ useEffect(() => {
     <h2 className="text-2xl font-semibold text-center">Live Position Details</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 max-w-7xl mx-auto">
       {data.map((item, index) => (
-        <div key={index} className="p-4 shadow-lg border rounded-xl bg-white">
+        <div key={index} className="p-4 shadow-lg rounded-xl bg-white">
           <h2 className="text-lg font-semibold">{item.Symbol} - {item.OptionType}</h2>
           <p className="text-gray-600">Exchange: {item.Exchange}</p>
           <p className="text-gray-600">Strike: {item.Strike}</p>
